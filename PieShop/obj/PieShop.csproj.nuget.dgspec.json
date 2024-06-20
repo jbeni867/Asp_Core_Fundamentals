@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj": {}
+    "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj": {}
   },
   "projects": {
-    "/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj": {
+    "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj",
+        "projectUniqueName": "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj",
         "projectName": "PieShop",
-        "projectPath": "/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj",
-        "packagesPath": "/home/jbenitez/.nuget/packages/",
-        "outputPath": "/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/",
+        "projectPath": "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj",
+        "packagesPath": "C:\\Users\\jbenitez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jbenitez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jbenitez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

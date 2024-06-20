@@ -23,3 +23,31 @@
 /Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.pdb
 /Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.genruntimeconfig.cache
 /Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/ref/PieShop.dll
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/appsettings.Development.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/appsettings.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/PieShop
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/PieShop.deps.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/PieShop.runtimeconfig.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/PieShop.dll
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/bin/Debug/net8.0/PieShop.pdb
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.GeneratedMSBuildEditorConfig.editorconfig
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.AssemblyInfoInputs.cache
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.AssemblyInfo.cs
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.csproj.CoreCompileInputs.cache
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.MvcApplicationPartsAssemblyInfo.cache
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.RazorAssemblyInfo.cache
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.RazorAssemblyInfo.cs
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.sourcelink.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets.build.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets.development.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets/msbuild.PieShop.Microsoft.AspNetCore.StaticWebAssets.props
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets/msbuild.build.PieShop.props
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PieShop.props
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PieShop.props
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/staticwebassets.pack.json
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/scopedcss/bundle/PieShop.styles.css
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.dll
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/refint/PieShop.dll
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.pdb
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/PieShop.genruntimeconfig.cache
+/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/Debug/net8.0/ref/PieShop.dll

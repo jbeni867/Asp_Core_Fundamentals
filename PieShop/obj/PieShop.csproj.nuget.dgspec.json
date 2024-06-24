@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj": {}
+    "/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj": {
+    "/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj",
+        "projectUniqueName": "/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj",
         "projectName": "PieShop",
-        "projectPath": "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\PieShop.csproj",
-        "packagesPath": "C:\\Users\\jbenitez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbenitez\\Documents\\Code_Projects\\Asp_Core_Fundamentals\\PieShop\\obj\\",
+        "projectPath": "/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/PieShop.csproj",
+        "packagesPath": "/Users/jordy/.nuget/packages/",
+        "outputPath": "/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jbenitez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jordy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,16 +32,23 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

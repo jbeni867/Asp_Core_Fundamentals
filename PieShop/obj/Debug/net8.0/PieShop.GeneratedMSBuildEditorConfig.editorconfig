@@ -17,31 +17,35 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PieShop
 build_property.RootNamespace = PieShop
-build_property.ProjectDir = /Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/
+build_property.ProjectDir = /home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop
+build_property.MSBuildProjectDirectory = /home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Pie/Details.cshtml]
+[/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Pie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGllL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Pie/List.cshtml]
+[/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGllL0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Shared/_Layout.cshtml]
+[/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/_ViewImports.cshtml]
+[/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jordy/Documents/Code Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/_ViewStart.cshtml]
+[/home/jbenitez/Documents/Code_Projects/Dotnet/Asp_Core_Fundamentals/PieShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

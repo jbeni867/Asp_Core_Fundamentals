@@ -17,7 +17,7 @@ namespace PieShop.Controllers
 
         public IActionResult List()
         {
-            PieListViewModel pieListViewModel = new(_pieRepository.AllPies, "Cheese cakes");
+            PieListViewModel pieListViewModel = new(_pieRepository.AllPies, "All pies");
             return View(pieListViewModel);
         }
 

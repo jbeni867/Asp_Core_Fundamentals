@@ -14,4 +14,39 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="PieShopTests\**" />
+      <Compile Remove="PieShopTests\bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="PieShopTests\**" />
+      <EmbeddedResource Remove="PieShopTests\bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="PieShopTests\**" />
+      <Content Remove="PieShopTests\bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="PieShopTests\**" />
+      <None Remove="PieShopTests\bin\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="PieShopTests\obj\PieShopTests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\appsettings.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\libman.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\PieShop.deps.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\PieShop.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\PieShop.staticwebassets.runtime.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\PieShopTests.deps.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\bin\Debug\net8.0\PieShopTests.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="PieShopTests\obj\Debug\net8.0\PieShopTests.sourcelink.json" />
+    </ItemGroup>
+
 </Project>

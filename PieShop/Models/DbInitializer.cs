@@ -4,16 +4,12 @@ public static class DbInitializer
 {
     public static void Seed(IApplicationBuilder applicationBuilder)
     {
-        BethanysPieShopDbContext context = applicationBuilder.ApplicationServices.CreateScope().ServiceProvider
+        var context = applicationBuilder.ApplicationServices.CreateScope().ServiceProvider
             .GetRequiredService<BethanysPieShopDbContext>();
 
-        if (!context.Categories.Any())
-        {
-            context.Categories.AddRange(Categories.Select(c => c.Value));
-        }
+        if (!context.Categories.Any()) context.Categories.AddRange(Categories.Select(c => c.Value));
 
         if (!context.Pies.Any())
-        {
             context.AddRange
             (
                 new Pie
@@ -213,7 +209,6 @@ public static class DbInitializer
                     AllergyInformation = ""
                 }
             );
-        }
 
         context.SaveChanges();
     }
@@ -228,17 +223,14 @@ public static class DbInitializer
             {
                 var genresList = new Category[]
                 {
-                    new Category { CategoryName = "Fruit pies" },
-                    new Category { CategoryName = "Cheese cakes" },
-                    new Category { CategoryName = "Seasonal pies" }
+                    new() { CategoryName = "Fruit pies" },
+                    new() { CategoryName = "Cheese cakes" },
+                    new() { CategoryName = "Seasonal pies" }
                 };
 
                 categories = new Dictionary<string, Category>();
 
-                foreach (Category genre in genresList)
-                {
-                    categories.Add(genre.CategoryName, genre);
-                }
+                foreach (var genre in genresList) categories.Add(genre.CategoryName, genre);
             }
 
             return categories;

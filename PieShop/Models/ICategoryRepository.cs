@@ -1,7 +1,6 @@
-namespace PieShop.Models
+namespace PieShop.Models;
+
+public interface ICategoryRepository
 {
-    public interface ICategoryRepository
-    {
-        IEnumerable<Category> AllCategories { get; }
-    }
+    IEnumerable<Category> AllCategories { get; }
 }

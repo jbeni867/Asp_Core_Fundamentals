@@ -17,10 +17,10 @@ public class ShoppingCart : IShoppingCart
 
     public static ShoppingCart GetCart(IServiceProvider services)
     {
-        ISession? session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext?.Session;
+        var session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext?.Session;
 
-        BethanysPieShopDbContext context = services.GetService<BethanysPieShopDbContext>() ??
-                                           throw new Exception("Error initializing");
+        var context = services.GetService<BethanysPieShopDbContext>() ??
+                      throw new Exception("Error initializing");
 
         string cartId = session?.GetString("CartId") ?? Guid.NewGuid().ToString();
 
@@ -60,7 +60,7 @@ public class ShoppingCart : IShoppingCart
             _bethanysPieShopDbContext.ShoppingCartItems.SingleOrDefault(
                 s => s.Pie.PieId == pie.PieId && s.ShoppingCartId == ShoppingCartId);
 
-        var localAmount = 0;
+        int localAmount = 0;
 
         if (shoppingCartItem != null)
         {
@@ -101,7 +101,7 @@ public class ShoppingCart : IShoppingCart
 
     public decimal GetShoppingCartTotal()
     {
-        var total = _bethanysPieShopDbContext.ShoppingCartItems.Where(c => c.ShoppingCartId == ShoppingCartId)
+        float total = _bethanysPieShopDbContext.ShoppingCartItems.Where(c => c.ShoppingCartId == ShoppingCartId)
             .Select(c => (float)c.Pie.Price * c.Amount).Sum();
         return (decimal)total;
     }

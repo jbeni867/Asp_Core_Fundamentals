@@ -14,6 +14,7 @@ public class ShoppingCartController : Controller
         _pieRepository = pieRepository;
         _shoppingCart = shoppingCart;
     }
+
     public ViewResult Index()
     {
         var items = _shoppingCart.GetShoppingCartItems();
@@ -28,10 +29,7 @@ public class ShoppingCartController : Controller
     {
         var selectedPie = _pieRepository.AllPies.FirstOrDefault(p => p.PieId == pieId);
 
-        if (selectedPie != null)
-        {
-            _shoppingCart.AddToCart(selectedPie);
-        }
+        if (selectedPie != null) _shoppingCart.AddToCart(selectedPie);
         return RedirectToAction("Index");
     }
 
@@ -39,11 +37,7 @@ public class ShoppingCartController : Controller
     {
         var selectedPie = _pieRepository.AllPies.FirstOrDefault(p => p.PieId == pieId);
 
-        if (selectedPie != null)
-        {
-            _shoppingCart.RemoveFromCart(selectedPie);
-        }
+        if (selectedPie != null) _shoppingCart.RemoveFromCart(selectedPie);
         return RedirectToAction("Index");
     }
-
 }

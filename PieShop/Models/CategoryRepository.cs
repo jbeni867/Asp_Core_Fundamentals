@@ -11,9 +11,6 @@ public class CategoryRepository : ICategoryRepository
 
     public IEnumerable<Category> AllCategories
     {
-        get
-        {
-            return _bethanysPieShopDbContext.Categories.OrderBy(p => p.CategoryName);
-        }
+        get { return _bethanysPieShopDbContext.Categories.OrderBy(p => p.CategoryName); }
     }
 }

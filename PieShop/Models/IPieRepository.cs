@@ -1,9 +1,8 @@
-namespace PieShop.Models
+namespace PieShop.Models;
+
+public interface IPieRepository
 {
-    public interface IPieRepository
-    {
-        IEnumerable<Pie> AllPies { get; }
-        IEnumerable<Pie> PiesOfTheWeek { get; }
-        Pie? GetPieById(int pieId);
-    }
+    IEnumerable<Pie> AllPies { get; }
+    IEnumerable<Pie> PiesOfTheWeek { get; }
+    Pie? GetPieById(int pieId);
 }
